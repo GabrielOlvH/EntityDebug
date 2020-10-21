@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "entitydebug",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Entity Debug",
+  "description": "Tracks chunks causing entity lag.",
   "authors": [
     "Me!"
   ],
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/entitydebug/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.steven.entitydebug.EntityDebug"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "entitydebug.mixins.json"
   ],
 
   "depends": {
